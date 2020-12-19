@@ -103,6 +103,31 @@
       <p class="photo-gallery__outro">Затмите их всех! Выкладывайте все, что накопилось в телефоне!</p>
     </footer>
   </section>
+
+  <section class="post-photo">
+    <div class="post-photo__wrapper">
+      <img class="post-photo__img" src="" alt="" width="" height="">
+      <div class="post-photo__filter-list">
+        <div class="post-photo__filter-item">
+          <button class="post-photo__filter-button post-photo__filter-button_crop">Обрезать фото</button>
+          <input class="post-photo__slider" id="crop" type="range" min="1" max="100" value="50">
+          <label for="crop">Обрезать фото</label>
+        </div>
+        <div class="post-photo__filter-item">
+          <button class="post-photo__filter-button post-photo__filter-button_contrast">Контрастность</button>
+          <input class="post-photo__slider" id="contrast" type="range" min="1" max="100" value="50">
+          <label for="contrast">Контрастность</label>
+        </div>
+        <div class="post-photo__filter-item">
+          <button class="post-photo__filter-button post-photo__filter-button_bright">Яркость</button>
+          <input class="post-photo__slider" id="bright" type="range" min="1" max="100" value="50">
+          <label for="bright">Яркость</label>
+        </div>
+      </div>
+      <button class="post-photo__post button">Запостить</button>
+      <button class="post-photo__cancel button">Отмена</button>
+    </div>
+  </section>
 </main>
 </body>
 </html>
