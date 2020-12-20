@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Конкурс от Pink</title>
+</head>
+<body class="page__body">
+<header class="page-header">
+  <div class="page-header__wrapper">
+    <nav class="main-nav">
+      <a href="index.html" class="main-nav__logo"><img src="" alt='Логотип сайта "Pink"' width="" height=""></a>
+      <button class="main-nav__toggle"></button>
+      <ul class="main-nav__list">
+        <li class="main-nav__item"><a href="index.html" class="main-nav__logo">Главная</a></li>
+        <li class="main-nav__item"><a href="#">Фотографии</a></li>
+        <li class="main-nav__item"><a href="#">Конкурс</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main class="page-main">
+  <h1 class="page-main__tittle">Конкурс на самое безбашенное путешествие с Пинк</h1>
+  <p class="page-main__intro">Поделитесь своей историей и получите шанс выиграть ценный приз — 1000 миль на вашу бонусную карту! Пожалуйста, заполните
+    форму ниже:</p>
+  <section class="contest">
+    <form class="contest__form contest-form" action="">
+      <fieldset class="contest-form__full-name form-full-name">
+        <legend class="visually-hidden">Укажите ваше ФИО</legend>
+        <label>
+          Фамилия
+          <input class="form-full-name__last-name" type="text" placeholder="Укажите фамилию *" required>
+        </label>
+        <label>
+          Имя
+          <input class="form-full-name__first-name" type="text" placeholder="Введите ваше имя *" required>
+        </label>
+        <label>
+          Отчество
+          <input class="form-full-name__middle-name" type="text" placeholder="Ну и отчество тоже">
+        </label>
+      </fieldset>
+
+      <fieldset class="contest-form__achievements form-achievements">
+        <legend class="form-achievements__legend">Ваши безбашенные достижения в путешествии</legend>
+        <label class="form-achievement__item">
+          <input class="visually-hidden" type="checkbox" name="selfie-with-shark">
+          <span class="form-achievements__checkbox-indicator"></span>
+          Сделал селфи с акулой
+        </label>
+        <label class="form-achievement__item">
+          <input class="visually-hidden" type="checkbox" name="burned">
+          <span class="form-achievements__checkbox-indicator"></span>
+          Обгорел на пляже
+        </label>
+        <label class="form-achievement__item">
+          <input class="visually-hidden" type="checkbox" name="chuck-norris">
+          <span class="form-achievements__checkbox-indicator"></span>
+          Видел Чака Норриса
+        </label>
+        <label class="form-achievement__item">
+          <input class="visually-hidden" type="checkbox" name="bought-souvenirs">
+          <span class="form-achievements__checkbox-indicator"></span>
+          Накупил сувениров
+        </label>
+        <label class="form-achievement__item">
+          <input class="visually-hidden" type="checkbox" name="held-tower">
+          <span class="form-achievements__checkbox-indicator"></span>
+          Удержал башню
+        </label>
+        <label class="form-achievement__item">
+          <input class="visually-hidden" type="checkbox" name="trashed-hotel">
+          <span class="form-achievements__checkbox-indicator"></span>
+          Разгромил отель
+        </label>
+      </fieldset>
+
+      <fieldset class="contest-form__contacts form-contacts">
+        <legend class="form-contacts__legend">Контактная информация</legend>
+        <label class="form-contacts__phone">
+          Номер телефона
+          <input class="form-contacts__phone-input" type="tel" placeholder="Номер, пожалуйста">
+        </label>
+        <label class="form-contacts__email">
+          Адрес почты
+          <input class="form-contacts__email-input" type="email" placeholder="Введите почту *" required>
+        </label>
+      </fieldset>
+
+      <fieldset class="contest-form__platform form-platform">
+        <legend class="form-platform__legend">С каким приложением путешествовали?</legend>
+        <label class="form-platform__item">
+          <input type="radio" name="platform" value="ios" id="platformChoice1">
+          <span class="form-platform__radio-indicator"></span>
+          Pink для iOS
+        </label>
+        <label class="form-platform__item">
+          <input type="radio" name="platform" value="android" id="platformChoice2">
+          <span class="form-platform__radio-indicator"></span>
+          Pink на Android
+        </label>
+        <label class="form-platform__item">
+          <input type="radio" name="platform" value="windows" id="platformChoice3">
+          <span class="form-platform__radio-indicator"></span>
+          Windows Phone
+        </label>
+      </fieldset>
+
+      <fieldset class="contest-form__emotion form-emotion">
+        <legend class="form-emotion__legend">Опишите свои эмоции</legend>
+        <label class="visually-hidden" for="emotions">Опишите свои эмоции</label>
+        <textarea name="emotions" id="emotions" cols="20" rows="8" placeholder="Можно прям в красках, не стесняясь в выражениях"></textarea>
+      </fieldset>
+      <button class="contest-form__submit button button_form" type="submit">Отправить форму</button>
+    </form>
+    <small class="contest-from__note"><span class="contest-form__error-indicator">*</span> — обязательные поля</small>
+  </section>
+</main>
+<footer class="page-footer">
+  <div class="page-footer__wrapper">
+    <div class="page-footer__logo footer-logo">
+      <a href="index.html"><img src="" alt="Логотип приложения Pink" width="" height=""></a>
+    </div>
+    <div class="page-footer__social social">
+      <ul class="social__list">
+        <li class="social__item"><a class="social__link social__link_twitter" href="#"></a></li>
+        <li class="social__item"><a class="social__link social__link_facebook" href="#"></a></li>
+        <li class="social__item"><a class="social__link social__link_market" href="#"></a></li>
+      </ul>
+    </div>
+    <div class="page-footer__copyright copyright">
+      <p class="copyright__text">Разработано</p>
+      <a href="#" class="copyright__link"></a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
