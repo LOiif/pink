@@ -1,0 +1,34 @@
+.page-footer {
+}
+
+.page-footer__wrapper {
+  padding: 40px 20px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+
+  @media(max-width: $mobile-width) {
+    flex-direction: column;
+    align-items: center;
+  }
+  @media(min-width: $tablet-width) {
+    width: 620px;
+    justify-content: space-between;
+  }
+  @media(min-width: $desktop-width) {
+    width: 940px;
+    justify-content: space-between;
+  }
+}
+
+.page-footer__logo {
+
+  &:hover .page-footer__logo-img {
+    fill: #D22856;
+  }
+
+  &:active .page-footer__logo-img {
+    fill: #283645;
+    opacity: 0.3;
+  }
+}

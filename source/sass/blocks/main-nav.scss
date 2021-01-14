@@ -1,0 +1,25 @@
+.main-nav__list {
+  display: none;
+  width: auto;
+  list-style: none;
+  padding: 0;
+
+  @media(min-width: $desktop-width) {
+    display: flex;
+    width: 620px;
+  }
+}
+
+.main-nav__item {
+  flex-grow: 1;
+
+  @media (max-width: $desktop-width) {
+    margin: 0 auto;
+  }
+}
+
+.main-nav__link {
+  color: inherit;
+}
+
+

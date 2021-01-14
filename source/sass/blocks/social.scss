@@ -1,0 +1,30 @@
+.social__list {
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  padding: 0;
+  @media(max-width: $mobile-width) {
+    margin: 38px 0;
+  }
+}
+
+.social__item:not(:last-child) {
+  margin-right: 8px;
+}
+
+.social__link {
+  display: block;
+  width: 48px;
+  height: 48px;
+  border: 3px solid rgba(40, 54, 69, 0.1);
+
+  border-radius: 50%;
+
+  &:hover {
+    border-color: rgba(40, 54, 69, 1);
+  }
+
+  &:active {
+    opacity: 0.1;
+  }
+}

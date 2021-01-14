@@ -1,0 +1,29 @@
+.copyright {
+  display: flex;
+  align-items: center;
+
+}
+
+.copyright__img {
+  fill: rgba(210, 40, 86, 1);
+}
+
+.copyright__text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  margin: 0;
+}
+
+.copyright__link {
+  margin-left: 15px;
+  margin-bottom: -5px;
+
+  &:hover .copyright__img {
+    fill: #283645;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}

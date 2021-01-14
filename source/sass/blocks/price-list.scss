@@ -1,0 +1,24 @@
+.price-list {
+  background: url("../../img/greybackground2.svg") center top no-repeat;
+  background-size: cover;
+}
+
+.price-list__wrapper {
+  padding: 130px 20px 47px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.price-list__table {
+  position: relative;
+  border-collapse: separate;
+  border-spacing: 2px;
+  transform: translateX(-48%);
+  left: 48%;
+  width: 100%;
+}
+
+.price-list__toggles {
+  margin-bottom: 0;
+  margin-top: 42px;
+}

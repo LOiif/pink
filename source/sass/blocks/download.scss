@@ -1,0 +1,115 @@
+.download {
+  color: $white;
+}
+
+.download__content {
+  @media(max-width: $mobile-width) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 28px;
+    padding-bottom: 38px;
+    background-color: rgba(29, 38, 49, 1);
+  }
+}
+
+.download__list {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+
+  padding: 0;
+
+  list-style: none;
+
+  @media (max-width: $mobile-width) {
+    margin-top: 32px;
+    margin-bottom: 28px;
+  }
+}
+
+.download__item:not(:nth-child(3)) {
+  margin-right: 35px;
+}
+
+.download__wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-image: url("../../img/hand-mobile.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: 108px;
+  margin: 0 auto;
+
+  @media(min-width: $tablet-width) {
+    padding: 0 20px;
+    width: 620px;
+  }
+  @media(min-width: $desktop-width) {
+    width: 940px;
+  }
+}
+
+.download__slogan {
+  font-weight: 300;
+  margin: 0;
+
+  @media(max-width: $mobile-width) {
+    font-size: 24px;
+    padding-bottom: 318px;
+    padding-top: 28px;
+  }
+  @media(min-width: $tablet-width) {
+    font-size: 40px;
+  }
+  @media(min-width: $desktop-width) {
+    font-size: 50px;
+  }
+}
+
+.download__description {
+  font-weight: 300;
+  margin: 0;
+
+  @media(min-width: $tablet-width) {
+    font-size: 18px;
+  }
+}
+
+.download__link {
+  display: flex;
+  color: inherit;
+
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+  font-size: 18px;
+
+  border: 3px solid $white;
+  border-radius: 29px;
+
+  min-height: 53px;
+
+  @media(max-width: $mobile-width) {
+    width: 280px;
+  }
+  @media(min-width: $tablet-width) {
+    width: 300px;
+  }
+  @media(min-width: $desktop-width) {
+    font-size: 21px;
+  }
+
+  &:hover {
+    background-color: $white;
+    color: rgba(210, 40, 86, 1);
+  }
+
+  &:active {
+    color: rgba(210, 40, 86, 0.3);
+  }
+}
+
+
